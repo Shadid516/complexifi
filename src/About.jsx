@@ -13,10 +13,11 @@ function About() {
       </p>
       <p className="text-center">
         This project is the result of a collaborative effort by our dedicated team:
-        <span class= "name">
-          <a href="https://www.linkedin.com/in/ahmad-mansour-192766209" target="_blank" rel="noopener noreferrer"> Ahmad Mansour</a>,
-          <a href="https://www.linkedin.com/in/houssamsalehalrifaii/" target="_blank" rel="noopener noreferrer"> Houssam AlRifaii</a>,
-          <a href="https://www.linkedin.com/in/shadi-al-masry-489458165/" target="_blank" rel="noopener noreferrer"> Shadi Al-Masry</a>,
+        {/* //These empty html elements are used to put spaces outside of the link */}
+        <span class= "name"> <></> 
+          <a href="https://www.linkedin.com/in/ahmad-mansour-192766209" target="_blank" rel="noopener noreferrer">Ahmad Mansour</a>, <></>
+          <a href="https://www.linkedin.com/in/houssamsalehalrifaii/" target="_blank" rel="noopener noreferrer">Houssam AlRifaii</a>, <></>
+          <a href="https://www.linkedin.com/in/shadi-al-masry-489458165/" target="_blank" rel="noopener noreferrer">Shadi Al-Masry</a>, <></>
         </span>
          Together, we combined our diverse skills and expertise to bring Complexifi to life.
       </p>
