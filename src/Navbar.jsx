@@ -10,17 +10,17 @@ const Navbar = () => {
         </Link>
 <ul className="navbar-nav ms-auto d-flex flex-row gap-3"> 
   <li className="nav-item">
-            <Link className="nav-link" to="/" end style={{ color: 'blue' }}>
+            <Link className="nav-link" to="/" end >
               Home
             </Link>
   </li>
   <li className="nav-item">
-            <Link className="nav-link" to="/about" style={{ color: 'blue' }}>
+            <Link className="nav-link" to="/about" >
               About
             </Link>
   </li>
   <li className="nav-item">
-            <Link className="nav-link" to="/resources" style={{ color: 'blue' }}>
+            <Link className="nav-link" to="/resources" >
               Resources
             </Link>
   </li>

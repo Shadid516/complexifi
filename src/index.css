@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #007bff; /* Blue */
-  --secondary-color: #ff0707; /* */
+  /* --primary-color: #007bff; Blue */
+  --secondary-color: #2cecb5; /* */
   --text-color: #333; /* Dark gray */
 }
 
@@ -32,7 +32,7 @@ p {
 }
 
 a {
-  color: blue;
+  
   text-decoration: none;
 }
 
