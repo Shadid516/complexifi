@@ -1,8 +1,45 @@
 :root {
-  color-scheme: light dark;
+  --primary-color: #007bff; /* Blue */
+  --secondary-color: #ff0707; /* */
+  --text-color: #333; /* Dark gray */
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
+  font-family: Arial, sans-serif; /* Base font */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Light gray */
+  color: var(--text-color); /* Use text color from root */
 }
+
+h1 {
+  font-size: 2.5em; /* Large heading */
+  font-family: "Open Sans", sans-serif; /* Decorative font (optional) */
+  color: var(--primary-color); /* Blue */
+  margin-bottom: 1.5rem; /* Spacing */
+}
+
+h2 {
+  font-size: 1.8em; /* Smaller heading */
+  margin-bottom: 1rem; /* Spacing */
+}
+
+p {
+  font-size: 16px; /* Base text size */
+  line-height: 1.5; /* Adjust line spacing for readability */
+  margin-bottom: 1rem; /* Spacing */
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color); /* Yellow on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+  
