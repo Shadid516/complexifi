@@ -11,8 +11,8 @@ function Home() {
     <a href="#" className="btn btn-primary btn-lg">Download VS Code Extension</a>
   </div>
   <p className="text-center">
-    New to coding? Check out our comprehensive resources to help you get started:
-    <Link  to="/resources" > Beginner's Guide</Link>
+    New to coding? Check out our comprehensive resources to help you get started: 
+    <Link  to="/resources" >Beginner's Guide</Link>
   </p>
 </div>
   );
