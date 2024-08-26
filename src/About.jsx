@@ -24,6 +24,7 @@ function About() {
       <p className="text-center">
         Join us on this journey to build better software, one line of code at a time. Connect with us on LinkedIn to stay updated on our work and future projects.
       </p>
+      <a href="https://github.com/Shadid516/complexifi" target="_blank" rel="noopener noreferrer">Source Code</a>
     </div>
   );
 }
